@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Asessment2</string>
+    <string name="list_kosong">List Kosong\n</string>
+    <string name="tambah_catatan">Tambah Catatan\n</string>
+    <string name="pesan_hapus">Hapus cacatan ini?</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="list">Tampilan List</string>
+    <string name="grid">Tampilan Grid</string>
+    <string name="kembali">Kembali</string>
+    <string name="edit_catatan">Edit Catatan</string>
+    <string name="invalid">Invalid</string>
+    <string name="simpan">Simpan</string>
+    <string name="nama">Nama</string>
+    <string name="umur">Umur</string>
+    <string name="opsi_lainnya">Opsi Lainnya</string>
+    <string name="hapus">Hapus</string>
+    <string name="deskripsi_kriminal">Deskripsi Kriminal</string>
+</resources>
