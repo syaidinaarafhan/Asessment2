@@ -1,6 +1,7 @@
 package org.d3if3048.myapplication.ui.screen
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -8,6 +9,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid
@@ -120,6 +122,13 @@ fun MainPreview(showList: Boolean ,modifier: Modifier = Modifier, navController:
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Image(painter = painterResource(
+                id = R.drawable.images),
+                contentDescription = stringResource(id = R.string.foto),
+                modifier = Modifier
+                    .size(200.dp, 200.dp)
+
+            )
             Text(text = stringResource(id = R.string.list_kosong))
         }
     } else {

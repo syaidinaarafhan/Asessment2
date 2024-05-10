@@ -176,7 +176,6 @@ fun DetailScreen(navController: NavHostController, id: Long? = null){
     }
 }
 
-//nama, umur, tanggal_keluar, ruangan, deskripsi
 @RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun FormKriminal(
@@ -244,9 +243,6 @@ fun FormKriminal(
                 datepicker(
                     initialDate = LocalDate.now(),
                     title = "Pick a date",
-                    allowedDateValidator = {
-                        it.dayOfMonth % 2 == 1
-                    }
                 ) {
                     pickedDate = it
                 }
