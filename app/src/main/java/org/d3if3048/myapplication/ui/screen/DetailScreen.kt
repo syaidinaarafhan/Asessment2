@@ -227,7 +227,7 @@ fun FormKriminal(
             Button(onClick = {
                 dateDialogState.show()
             }) {
-                Text(text = "Pick date")
+                Text(text = "Pilih Tanggal Keluar")
             }
             Text(text = formattedDate)
             MaterialDialog(
@@ -242,7 +242,7 @@ fun FormKriminal(
             ) {
                 datepicker(
                     initialDate = LocalDate.now(),
-                    title = "Pick a date",
+                    title = "Pilih Tanggal Keluar",
                 ) {
                     pickedDate = it
                 }
